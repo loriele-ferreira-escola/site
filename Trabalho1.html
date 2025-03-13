@@ -1,25 +1,225 @@
-
 <!DOCTYPE html>
 <html lang="PT-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalho Back-end</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+}
 
+.site {
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(255, 145, 0);
+  
+}
+
+.header {
+    width: 1 inherit;
+    height: 100px;
+    background-color: aquamarine;
+}
+.h01{
+    width: 25%;
+    height: inherit;
+    background-color: rgb(65, 54, 90);
+    display: inline-block;
+    float: right;
+}
+.h02{
+    width: 25%;
+    height: inherit;
+    background-color: rgb(136, 75, 75);
+    display: inline-block;
+    float: right;
+}
+.h03{
+    width: 25%;
+    height: inherit;
+    background-color: rgb(118, 91, 91);
+    display: inline-block;
+    float: right;
+}
+.h04{
+    width: 25%;
+    height: inherit;
+    background-color: rgb(134, 126, 126);
+    display: inline-block;
+    float: right;
+}
+
+
+.main {
+    width: 450px;
+    height:  1 inherit;
+    position: relative;
+    background-color:#0000
+    
+}
+
+
+.esquerda {
+    width: 250px;
+    height:  inherit;
+    background-color: rgb(14, 106, 106);
+   
+}
+
+
+.es01{
+    width: 250px;
+    height:  100px;
+    background-color: rgb(0, 51, 255);  
+}
+.es02{
+    width: 250px;;
+    height: 100px;
+    background-color: rgb(0, 255, 8);
+}
+.es03{
+    width: 250px;;
+    height: 100px;
+    background-color: rgb(229, 255, 0);
+}
+
+.centro {
+    width:500px;
+    height:inherit;
+     background-color: #333;
+     position: absolute;
+     top: 0;
+     left: 250px;
+}
+.centrocima {
+    width: 600px;
+    height: 150px;
+    display: inline-block;
+    background-color: rgb(148, 159, 49);
+    float:right;
+}  
+.cc01 {
+    width: 300px;
+    height: 150px;
+    background-color: rgb(121, 95, 95);
+    display: inline-block;
+    float: right;
+    
+}
+.cc02 {
+    width: 300px;
+    height: 150px;
+    background-color: #333;
+    display: inline-block;
+    float: right;
+}
+
+.centrobaixo{
+    width: 600px;
+    height: 150px;
+    display: inline-block;
+    float: right;
+    background-color: black;
+}
+.cb01{
+    width: 200px;
+    height: 150px;
+    background-color: rgb(255, 136, 136);
+    display: inline-block;
+    float: right;
+    
+}
+.cb02{
+    width: 200px;
+    height: 150px;
+    background-color: rgb(172, 152, 255);
+    display: inline-block;
+    float: right;
+    
+}
+.cb03{
+    width: 200px;
+    height: 150px;
+    background-color: rgb(145, 239, 255);
+    display: inline-block;
+    float: right;
+ 
+}
+
+.direita {
+    width: 250px;
+    height:  inherit;
+    background-color: aqua; 
+    position: absolute;
+    top: 0;
+    left: 750px;
+    
+ 
+}
+
+.d1{
+    width: 250px;
+    height: 150px;
+    background-color: rgb(56, 77, 117);  
+
+}
+.d2{
+    width: 250px;
+    ;height: 150px;
+    background-color: rgb(115, 0, 255);
+}
+
+.footer {
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(29, 5, 126);
+    
+}
+
+.f01{
+    width: 33.33%;
+    height: inherit;
+    background-color: rgb(236, 67, 0);
+    display: inline-block;
+    float: right;
+
+
+}
+    
+.f02{
+    width: 33.33%;
+    height: inherit;
+    background-color: rgb(108, 0, 9);
+    display: inline-block;
+    float: right;
+    
+}
+.f03{
+    width:33.33%;
+    height: inherit;
+    background-color: rgb(44, 0, 0);
+    display: inline-block;
+    float: right;
+   
+}
+    </Style>
+</head>
 <body>
     <div class="site">
         <div class="header">
             <div class="h01"></div>
+            <div class="h02"></div>
             <div class="h03"></div>
             <div class="h04"></div>
-            <div class="h05"></div>
         </div>
         <div class="main">
-            <div class="esquerda"></div>
-
+            <div class="esquerda">
+                <div class="es01"></div>
+                <div class="es02"></div>
+                <div class="es03"></div>
+            </div>
             <div class="centro">
                 <div class="centrocima">
                     <div class="cc01"></div>
@@ -31,10 +231,10 @@
                     <div class="cb03"></div>
                 </div>
             </div>
-            <div class="direita"></div>
-            <div class="di01"></div>
-            <div class="di02"></div>
-            <div class="di03"></div>
+            <div class="direita">
+                <div class="d1"></div>
+                <div class="d2"></div>
+            </div>
         </div>
         <div class="footer">
             <div class="f01"></div>
@@ -43,72 +243,4 @@
         </div>
     </div>
 </body>
-
 </html>
-.site {
-    width: 1000px;
-    height: 500px;
-    background-color: rgb(215, 142, 46);
-}
-
-
-.header {
-    width: 1 inherit;
-    height: 100px;
-    background-color: aquamarine;
-}
-
-
-.main {
-    width: inherit;
-    height: 350px;
-    background-color: rgb(94, 13, 13);
-}
-
-.esquerda {
-    width: 200px;
-    height: inherit;
-    background-color: rgb(130, 34, 96);
-    display: inline-block;
-    float: right;
-}
-
-.centro {
-    width: 600px;
-    height: inherit;
-    background-color: rgb(130, 34, 34);
-    display: inline-block;
-    float: right;
-}
-
-.direita {
-    width: 200px;
-    height: inherit;
-    background-color: rgb(255, 0, 140);
-    display: inline-block;
-    float: right;
-}
-
-.di01 {
-    width: inherit;
-    height: 33%;
-    background-color: rgb(130, 34, 95);
-}
-
-.di02 {
-    width: inherit;
-    height: 33%;
-    background-color: rgb(67, 95, 51);
-}
-
-.di03 {
-    width: inherit;
-    height: 33%;
-    background-color: rgb(34, 128, 130);
-}
-
-.footer {
-    width: inherit;
-    height: 50px;
-    background-color: rgb(53, 34, 130);
-}
