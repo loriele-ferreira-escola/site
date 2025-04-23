@@ -1,95 +1,51 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
+
 <head>
-<title></title>
-<link rel="stylesheet" type="text/css" href="">
-<script src="jquery.js"></script>
-<script> 
-$(document).ready(function(){ //Linha de código do jquery.
-
-let operacao;
-let total;
-let um;
-let dois;
-let tres;
-let quatro;
-let cinco;
-let seis;
-let sete;
-let oito;
-let nove;
-let zero;
-let soma;
-let subtracao;
-let dvisao;
-let multiplicacao;
-let potencia;
-let porcentagem;
-
-btn_um.onclick  = function(){$("#campo").val("1");um = 1;}
-btn_dois.onclick = function(){$("#campo").val("2"); dois = 2;}
-btn_tres.onclick = function(){$("#campo").val("3");tres = 3;}
-btn_adicao.onclick = function(){$("#campo").val("+");operacao="a"}
-btn_porcentagem.onclick = function(){$("#campo").val("%");operacao ="por"}
-
-btn_quatro.onclick = function(){$("#campo").val("4");quatro=4;}
-btn_cinco.onclick = function(){$("#campo").val("5");cinco=5;}
-btn_seis.onclick = function(){$("#campo").val("6");seis=6;}
-btn_subtracao.onclick = function(){$("#campo").val("-");operacao="s"}
-btn_potencia.onclick = function(){$("#campo").val("^");operacao="pot"}
-
-btn_sete.onclick = function(){$("#campo").val("7");sete=7;}
-btn_oito.onclick = function(){$("#campo").val("8");oito=8;}
-btn_nove.onclick = function(){$("#campo").val("9");nove=9;}
-btn_divisao.onclick = function(){$("#campo").val("/");operacao="d"}
-btn_pa.onclick = function(){$("#campo").val("(");operacao="pa"}
-
-btn_ponto.onclick = function(){$("#campo").val(".");operacao=}
-btn_zero.onclick = function(){$("#campo").val("0");}
-btn_virgula.onclick = function(){$("#campo").val(",");}
-btn_multiplicacao.onclick = function(){$("#campo").val("*");}
-btn_pf.onclick = function(){$("#campo").val(")");}
-
-btn_igual.onclick = function(){$("#campo").val("=");}
-btn_reiniciar.onclick = function(){$("#campo").val("4");}
-});
-</script>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="">
+    <script src="jquery.js"></script>
+    <script>
+      
+    </script>
 </head>
+
 <body>
-<fieldset>
-<legend>CALCULADORA</legend>
-<input type="number" id="campo">
-</br></br>
-<button id="btn_um">1</button>
-<button id="btn_dois">2</button>
-<button id="btn_tres">3</button>
-<button id="btn_adicao">+</button>
-<button id="btn_porcentagem">%</button>
+    <fieldset>
+        <legend>CALCULADORA</legend>
+        <input type="number" id="campo">
+        </br></br>
+        <button id="btn_um">1</button>
+        <button id="btn_dois">2</button>
+        <button id="btn_tres">3</button>
+        <button id="btn_adicao">+</button>
+        <button id="btn_porcentagem">%</button>
 
-</br></br>
-<button id="btn_quatro">4</button>
-<button id="btn_cinco">5</button>
-<button id="btn_seis">6</button>
-<button id="btn_subtracao">-</button>
-<button id="btn_potencia">^</button>
+        </br></br>
+        <button id="btn_quatro">4</button>
+        <button id="btn_cinco">5</button>
+        <button id="btn_seis">6</button>
+        <button id="btn_subtracao">-</button>
+        <button id="btn_potencia">^</button>
 
-</br></br>
-<button id="btn_sete">7</button>
-<button id="btn_oito">8</button>
-<button id="btn_nove">9</button>
-<button id="btn_divisao">/</button>
-<button id="btn_pa">(</button>
+        </br></br>
+        <button id="btn_sete">7</button>
+        <button id="btn_oito">8</button>
+        <button id="btn_nove">9</button>
+        <button id="btn_divisao">/</button>
+        <button id="btn_pa">(</button>
 
-</br></br>
-<button id="btn_ponto">.</button>
-<button id="btn_zero">0</button>
-<button id="btn_virgula">,</button>
-<button id="btn_multiplicacao">x</button>
-<button id="btn_pf">)</button>
+        </br></br>
+        <button id="btn_ponto">.</button>
+        <button id="btn_zero">0</button>
+        <button id="btn_virgula">,</button>
+        <button id="btn_multiplicacao">x</button>
+        <button id="btn_pf">)</button>
 
-</br></br>
-<button id="btn_igual">=</button>
-<button id="btn_reiniciar">C</button>
-</fieldset>
+        </br></br>
+        <button id="btn_igual">=</button>
+        <button id="btn_reiniciar">C</button>
+    </fieldset>
 </body>
+
 </html>
