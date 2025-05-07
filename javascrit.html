@@ -1,17 +1,25 @@
 <!doctype html>
 <html lang="PT-br">
-  <head>
+  <head> 
     
-    <title>Minha página de teste</title>
+    <title>Minha página</title>
     <link rel="stylesheet" href="">
     <script src="jquery.js"></script>
     <script>
-
+        function vereficar(){
+            let nome = getElementbyId("nome");
+            let idade = getElementbyId("idade");
+            alert(nome);
+            alert(idade);
+        }
+        
     </script>
-
 
   </head>
   <body>
-    
+    <input type="text" id="nome">
+    <input type="text" id="idade">
+  </br> 
+  <button onclick = "vereficar();"> Vereficar</button>
   </body>
 </html>
