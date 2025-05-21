@@ -1,25 +1,31 @@
+
 <!doctype html>
 <html lang="PT-br">
   <head> 
     
-    <title>Minha página</title>
+    <title>Pagina aula 21/05</title>
     <link rel="stylesheet" href="">
     <script src="jquery.js"></script>
-    <script>
-        function vereficar(){
-            let nome = getElementbyId("nome");
-            let idade = getElementbyId("idade");
-            alert(nome);
-            alert(idade);
-        }
-        
-    </script>
+        <script>
+            let nome = document.getElementbyId("nome").value;
+            let idade = document.getElementbyId("idade").value;
+            let 
+            function vereficar(){
+                alert(nome);
+                alert(idade);
+            }   
+            btn_vereficar.onclick = function() {
+                alert(nome);
+                alert(idade);
+            } 
+        </script>
 
   </head>
   <body>
+    <p>Vereficar se eleitor pode votar</p>
     <input type="text" id="nome">
     <input type="text" id="idade">
   </br> 
-  <button onclick = "vereficar();"> Vereficar</button>
+  <button onclick = "vereficar();" id="btn_vereficar"> Vereficar</button>
   </body>
 </html>
